@@ -12,7 +12,7 @@ const Messages = () => {
   if (messages.length < 1) {
     num = false;
   }
-  // useListenMessages();
+  useListenMessages();
   const lastMessageRef = useRef();
 
   useEffect(() => {
